@@ -1,0 +1,48 @@
+appoint_Card{
+    display: flex;
+  width: 50%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+    
+}
+
+.appoint_card:hover {
+  transform: translateY(-5px);
+}
+
+.appointcard_header {
+  background-color: rgb(201, 236, 236);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.appointcard_image {
+  width: 100px; /* Adjust size as needed */
+    height: 100px; /* Same as width for a perfect circle */
+    border-radius: 50%; /* Makes the shape circular */
+    object-fit: cover; /* Ensures the image fits well */
+    border: 3px solid #fff; /* Optional: adds a border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+.appointcard_body {
+  
+  padding: 10px;
+}
+
+
+.appoint_button {
+  display: inline-block;
+  color: #00aaff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+.appoint_button:hover {
+  text-decoration: underline;
+}

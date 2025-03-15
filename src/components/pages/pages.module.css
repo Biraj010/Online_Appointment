@@ -1,0 +1,55 @@
+.Wrapper{
+    margin-top: 1rem;
+    max-width: 100%;
+    padding: 1em 2em;
+    
+    /* height: 50%; */
+    /* background-color: rgb(185, 229, 229); */
+}
+
+.background{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.appointcard_wrapper{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.appointcard_container{
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 0.5rem;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+ 
+  padding: 1rem;
+  /* border: 1px solid black; */
+
+}
+
+.consult_card_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.consult_card_container{
+  display: flex;
+  width: 50vw;
+  height: auto;
+  gap: 0.5rem;
+   /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+ 
+  padding: 1rem;
+
+}
