@@ -1,5 +1,5 @@
-appoint_Card{
-    display: flex;
+.appoint_Card{
+  display: flex;
   width: 50%;
   background: white;
   border-radius: 10px;
@@ -7,6 +7,7 @@ appoint_Card{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.2s ease-in-out;
+
     
 }
 
