@@ -1,7 +1,7 @@
 // consultdata.js
 import consultassets from "../assets_data/consult_assets"; // Correct default import
 
-const consultdata = [
+export const consultdata = [
   {
     title: "Child Health",
     rs: "Rs ",
@@ -36,4 +36,4 @@ const consultdata = [
   },
 ];
 
-export default consultdata; // Default export
+ 

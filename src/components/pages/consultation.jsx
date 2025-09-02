@@ -1,6 +1,6 @@
 import Photo from "../../assets/online_consultation_web.png";
 import styles from "./pages.module.css";
-import consultdata from "../../data/consultdata";
+import { consultdata } from "../../data/consultdata";
 import Card from "../../components/card/consult_card";
 const Consultation = () => {
   return (
